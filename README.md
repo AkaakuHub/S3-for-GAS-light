@@ -9,7 +9,7 @@ AWS の S3 を Google Apps Script上の V8 エンジンで利用するための�
 # 使用方法
 
 ```bash
-npm install S3-for-GAS-light
+npm install s3-for-gas-light
 ```
 
 使用例:
