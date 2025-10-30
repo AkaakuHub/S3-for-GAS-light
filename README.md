@@ -8,9 +8,11 @@ AWS の S3 を Google Apps Script上の V8 エンジンで利用するための�
 
 # 使用方法
 
-通常のライブラリと同じようにインポートできます。
+```bash
+npm install S3-for-GAS-light
+```
 
-例:
+使用例:
 
 ```typescript
 import { S3 } from "./package/S3-for-GAS-light";
@@ -30,6 +32,9 @@ Logger.log("S3にアップロードしました。");
 # 更新履歴
 
 2025/3/24 作成
+
+# コントリビューション
+バグ報告や機能追加の提案は歓迎します。プルリクエストもお待ちしております。
 
 # LICENSE
 
