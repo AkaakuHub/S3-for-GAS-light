@@ -15,7 +15,7 @@ npm install s3-for-gas-light
 使用例:
 
 ```typescript
-import { S3 } from "./package/S3-for-GAS-light";
+import { S3 } from "s3-for-gas-light";
 
 const accessKey = "your-access-key";
 const secretKey = "your-secret-key";
