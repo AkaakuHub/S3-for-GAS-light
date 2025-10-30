@@ -1,0 +1,34 @@
+{
+  "name": "s3-for-gas-light",
+  "version": "1.0.0",
+  "description": "A library to use basic function of AWS S3 on Google Apps Script's V8 engine.",
+  "homepage": "https://github.com/AkaakuHub/S3-for-GAS-light#readme",
+  "bugs": {
+    "url": "https://github.com/AkaakuHub/S3-for-GAS-light/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkaakuHub/S3-for-GAS-light.git"
+  },
+  "license": "Apache-2.0",
+  "author": "AkaakuHub",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc --declaration --outDir dist"
+  },
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.97"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.8.2"
+  }
+}
